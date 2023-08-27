@@ -11,7 +11,6 @@ Tools: MicroPython, multi-threaded/multi-core programming on Raspberry Pi Pico w
 - S8050 NPN transistor
 - Active buzzer 
 ### Schematics
-Involved circuits and a brief explanation on how they work
 #### 75HC595 IC
 <img width="322" alt="image" src="https://github.com/rana-balabel/secure-pass-guard/assets/78990245/d5f0f51b-6702-48b2-ac7e-d21cecb18868"> <br>
 #### 8x8 Matrix Pixel Display
@@ -33,7 +32,8 @@ The role of the transistor is to amplify the current and make the buzzer sound l
 ### User View
 <img width="1023" alt="image" src="https://github.com/rana-balabel/secure-pass-guard/assets/78990245/b5d9cc3e-6e28-4cfb-83bf-f168342a112d"> <br>
 ### Demo & Setup
-To setup the environment, install the Thonny IDE and upload the latest firmware of the Raspberry Pi Pico from the [Documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
-Select the MicroPython language in the interpretor and run the [main.py]() after setting up the circuit. Ensure the dependencies (SimpleMFRC522 module, for ex.) are installed on the Pico beforehand.
-
-View the demo through this [Google Drive link](https://drive.google.com/file/d/1BywcW-gau7x6p4sAKkLqN3-PGKrpZqSf/view?usp=sharing) <br>
+- To setup the environment, install the Thonny IDE and upload the latest firmware of the Raspberry Pi Pico from the [Documentation](https://www.raspberrypi.com/documentation/microcontrollers/raspberry-pi-pico.html)
+- Select the MicroPython language in the interpretor and run the [main.py]() after setting up the circuit. Ensure the dependencies (SimpleMFRC522 module, for ex.) are installed on the Pico beforehand.
+- Copy over the [index.html]() and required JavaScript [js/alarm.js]. The CSS and remaining files are optional and only used for styling.
+- View the demo through this [Google Drive link](https://drive.google.com/file/d/1BywcW-gau7x6p4sAKkLqN3-PGKrpZqSf/view?usp=sharing) <br>
+ 
