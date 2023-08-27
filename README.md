@@ -1,6 +1,7 @@
 # secure-pass-guard
 A multi-disciplinary password anomaly detection, alarm, and logging system. <br>
-Tools: MicroPython, multi-threaded/multi-core programming on Raspberry Pi Pico with ESP8266 for Wi-Fi connectivity, sensor data logging through Google Sheets and email notifications with IFTTT Applets
+#### Tools 
+MicroPython, multi-threaded/multi-core programming on Raspberry Pi Pico with ESP8266 for Wi-Fi connectivity, sensor data logging through Google Sheets and email notifications with IFTTT Applets
 - Main thread: sends the requests to Google Sheets, hosts the frontend, controls the IoT of the alarm sound + email notification, and updates the PIR sensor values on the frontend
 - Secondary thread: actively reads the fob/card placed in front of the MFRC522 module and checks against correctness of encoded password 
 
@@ -12,7 +13,7 @@ Tools: MicroPython, multi-threaded/multi-core programming on Raspberry Pi Pico w
 - 2 75HC595 ICs (8 bit shift registers + memory register)
 - S8050 NPN transistor
 - Active buzzer 
-### Schematics
+## Schematics
 #### 75HC595 IC
 <img width="322" alt="image" src="https://github.com/rana-balabel/secure-pass-guard/assets/78990245/d5f0f51b-6702-48b2-ac7e-d21cecb18868"> <br>
 #### 8x8 Matrix Pixel Display
